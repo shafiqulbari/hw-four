@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/images/bgg.jpg");
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #ff0000;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+    margin: 10px 15px;
+}
+
+.para {
+    background-color: aquamarine;
+    border-left: 5px solid rgb(13, 131, 131);
+    padding-left: 10px;
+}
+
+table {
+    width: 100%;
+    background-color: #945fad;
+}
+
+a {
+    text-decoration: none;
+    background-color: #d68924;
+    padding: 10px 25px;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(207, 169, 119);
+    color: black;
+}
+
+tr, table, th, td {
+    border: 2px solid rgb(250, 250, 250);
+    border-collapse: collapse;
+    color: aliceblue;
+}
+
+th, td {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: rgb(5, 139, 95);
+}
+th:hover {
+    background-color: rgb(188, 221, 4);
+}
+
+li {
+    margin-left: 25px;
+}
+
+.list {
+    display: inline-block;
+}
+
+.one {
+    margin-left: 200px;
+}
+
+.inher {
+    border: 1px solid salmon;
+    margin-left: 70px;
+    outline: 2px solid mediumspringgreen;
+    outline-offset: 15px;
+}
+
+.inherit {
+    margin-left: inherit;
+}
+
+.tal {
+    text-align-last: right;
+}
+
+.tal1 {
+    text-align-last: justify;
+}
+
+.tal2 {
+    text-align-last: left;
+}
